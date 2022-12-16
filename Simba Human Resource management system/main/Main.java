@@ -3,6 +3,7 @@ package main;
 import java.util.Scanner;
 
 import com.admin.usecase.AdminMain;
+import com.employee.usecase.EmpMain;
 
 public class Main {
 	public static void main(String[] args) {
@@ -48,6 +49,7 @@ public class Main {
 			   
 			   break;
 		   case 2:
+			   EmpMain.main(args);
 			   break;
 		   default:
 			   System.out.println("Invalid Input");

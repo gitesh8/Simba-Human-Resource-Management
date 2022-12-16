@@ -40,6 +40,9 @@ public class RegisterNewEmloyee {
 		try {
 			String response = ad.RegisterNewEmployee(emp);
 			System.out.println(response);
+			
+			System.out.println();
+			AdminMain.main(args);
 		} catch (AdminException e) {
 			// TODO Auto-generated catch block
 			System.out.println(e.getMessage());
